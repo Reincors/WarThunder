@@ -1,35 +1,35 @@
-body{
+body {
     font-family: "Noto Sans TC", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #F5F5F5;
 }
 
-.div-con{
+.div-con {
     border: 2px solid black;
     display: inline-block;
     margin-left: 10px;
     background-color: #F5F5F5;
 }
 
-.div-ul>ul>li>ul>li{
+.div-ul>ul>li>ul>li {
     list-style: inside;
 }
 
-li{
+li {
     margin-top: 10px;
 }
 
-a{
+a {
     color: green;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-.right-table{
+.right-table {
     float: right;
     border: 2px solid black;
     padding: 10px;
@@ -37,20 +37,20 @@ a:hover{
     background-color: #F5F5F5;
 }
 
-h2{
+h2 {
     margin-left: 10px;
 }
 
-p{
+p {
     margin-left: 20px;
 }
 
-.left-con{
+.left-con {
     float: left;
     margin-left: 5px;
 }
 
-.all-div{
+.all-div {
     width: 1280px;
     margin-left: 180px;
     border-left-width: 1px;
@@ -60,11 +60,11 @@ p{
     margin-top: 20px;
 }
 
-.td-in-left-con{
+.td-in-left-con {
     font-size: 14px;
 }
 
-.div-nav nav ul li{
+.div-nav nav ul li {
     list-style: none;
     display: inline;
     margin: 10px;
@@ -77,15 +77,24 @@ p{
     background-color: #FFFFFF;
 }
 
-.div-nav{
+.div-nav {
     display: flex;
     justify-content: space-between;
 }
 
-#tab{
+#tab {
     display: none;
 }
 
-#tab:target{
-    display: block;
+#tab:target {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #FFFFFF;
 }
