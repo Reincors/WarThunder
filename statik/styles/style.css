@@ -89,3 +89,18 @@ p {
 #tab:target {
     display: inline;
 }
+
+.tab2{
+    height: 0;
+    opacity: 0;
+    transition: 1s;
+}
+
+#tab2:checked ~ .tab2{
+    width: 194px;
+    height: 300px;
+    opacity: 1;
+    background-color: #eee;
+    border: 2px solid #ccc;
+    padding: 10;
+}
